@@ -1,0 +1,44 @@
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/style.scss ***!
+  \**********************************************************************************************************/
+body {
+  background-color: grey;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/buttons.scss ***!
+  \************************************************************************************************************/
+button {
+  width: 100px;
+  background: lightblue;
+  height: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reset {
+  background: red;
+  color: white;
+}
